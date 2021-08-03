@@ -1,3 +1,6 @@
 // BUILD YOUR SERVER HERE
+const express = require ('express')
 
-module.exports = {}; // EXPORT YOUR SERVER instead of {}
+const initializeUsers = require ('./users')
+
+module.exports = server // EXPORT YOUR SERVER instead of {}
